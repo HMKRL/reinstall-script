@@ -6,6 +6,8 @@ git config --global user.email "a135246a135246@gmail.com"
 git config --global user.name "Yu-Cheng Liang"
 git config --global core.editor "vim"
 
+apt-get update
+
 apt-get install -y gdb vim nodejs-legacy npm build-essential cmake autotools-dev openssh-server
 
 mkdir ~/.vim
